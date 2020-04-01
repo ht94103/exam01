@@ -15,7 +15,8 @@ int main()
 {
 
     //uLCD.line(int 0, int 1, int 1, int 1, int white); //Default Green on black text
+    uLCD.rectangle(0, 0, 100, 100, 0xFFFFFF);
+    uLCD.printf("\n  106061271");
 
-    uLCD.printf("\n  106061271/n");
 
 }
